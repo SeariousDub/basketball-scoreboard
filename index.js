@@ -170,4 +170,4 @@ resetBtn.addEventListener("dblclick", function (){
 })
 // RESET FUNCTIONS
 
-//updateWinningStyles() //updates scores on refresh
+updateWinningStyles() //updates scores on refresh
