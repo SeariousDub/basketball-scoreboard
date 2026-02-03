@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: fit-content;
+    margin: 30px auto;
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 5px solid orangered;
+    border-radius: 30px;
+    background-image: url(hero.jpg);
+    background-size: cover;
+    padding: 0 30px 30px 30px;
+}
+
+h3 {
+    margin: 60px 0;
+    padding: 0 50px;
+    font-family: Quantico;
+    font-size: 50px;
+    color: white;
+}
+
+.scores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 250px;
+    height: 150px;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-family: Quantico;
+    font-size: 100px;
+    color: yellow;
+    margin-bottom: 30px;
+    
+}
+
+.winning {
+    outline: 4px solid greenyellow;
+    outline-offset: -10px;
+}
+
+.timer {
+    margin: 20px 0 0 0;
+    width: 164.5px;
+    height: fit-content;
+    font-size: 30px;
+    /* border: 2px solid white; */
+}
+
+#timer-el {
+    height: 40px;
+    padding: 0 10px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: Quantico;
+    background-color: black;
+    color: white;
+    border: 2px solid yellow;
+    border-radius: 5px;
+}
+
+.timerbuttons {
+    display: flex;
+    margin: 5px 0;
+    justify-content: space-between;
+}
+
+#start-btn {
+    background-color: greenyellow;
+    color: green;
+    width: 60px;
+    height: 20px;
+    padding: 2px 0;
+    /* margin: 0 4px 0 0; */
+    font-size: .5em;
+}
+
+#start-btn:hover {
+    outline-color: greenyellow;
+    background-color: lime;
+}
+
+#stop-btn {
+    background-color: orangered;
+    color: white;
+    width: 60px;
+    height: 20px;
+    padding: 2px 0;
+    /* margin: 0 0 0 4px; */
+    font-size: .5em;
+}
+
+#stop-btn:hover {
+    background-color:red;
+    outline-color: orangered;
+}
+
+#reset {
+flex-basis: 100%;
+display: flex;
+justify-content: center;
+margin-top: 80px;
+}
+
+#reset button {
+    background-color:orangered;
+    outline-color: orangered;
+}
+
+#reset button:hover {
+    background-color:red;
+    outline-color: orangered;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.decrement {
+    background-color:orangered;
+    outline-color: orangered;
+}
+
+.decrement:hover {
+    background-color:red;
+    outline-color: orangered;
+}
+
+button {
+    font-family: Quantico;
+    font-size: 30px;
+    background-color: teal;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    /* margin-bottom: 50px; */
+}
+
+button:hover {
+    background-color: rgb(35, 171, 171);
+    cursor: pointer;
+    outline: 1px solid rgb(73, 196, 196);
+    outline-offset: 2px;
+}
+
+button:active {
+    scale: 95%;
+}
